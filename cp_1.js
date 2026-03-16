@@ -66,3 +66,47 @@ container.addEventListener("click", function(event){
 event.stopPropagation();
 
 });
+
+
+// FORM SUBMISSION + VALIDATION
+
+form.addEventListener("submit", function(event){
+
+event.preventDefault();
+
+const name = document.getElementById("name").value.trim();
+const email = document.getElementById("email").value.trim();
+const comment = comments.value.trim();
+
+if(name === "" || email === "" || comment === ""){
+
+errorMessage.textContent = "All fields must be filled out.";
+return;
+
+}
+
+errorMessage.textContent = "";
+
+
+// CREATE NEW FEEDBACK ENTRY
+
+const feedbackItem = document.createElement("div");
+feedbackItem.classList.add("feedback-item");
+
+feedbackItem.innerHTML = `
+<strong>Name:</strong> ${name} <br>
+<strong>Email:</strong> ${email} <br>
+<strong>Comment:</strong> ${comment}
+`;
+
+feedbackDisplay.appendChild(feedbackItem);
+
+
+// RESET FORM
+
+form.reset();
+charCount.textContent = "Characters: 0";
+
+});
+
+});
