@@ -4,7 +4,7 @@ body{
 }
 
 #form-container{
-    background:#f4f4f4;
+    background:#e4c3e2;
     padding:20px;
     width:400px;
     border-radius:8px;
@@ -28,8 +28,8 @@ button{
 
 .tooltip{
     position:absolute;
-    background:black;
-    color:white;
+    background:rgb(163, 141, 160);
+    color:rgb(48, 29, 14);
     padding:5px;
     font-size:12px;
     border-radius:5px;
