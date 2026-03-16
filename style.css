@@ -1,0 +1,44 @@
+body{
+    font-family: Arial;
+    margin:40px;
+}
+
+#form-container{
+    background:#f4f4f4;
+    padding:20px;
+    width:400px;
+    border-radius:8px;
+}
+
+input, textarea{
+    width:100%;
+    margin-top:5px;
+    margin-bottom:15px;
+    padding:8px;
+}
+
+button{
+    padding:10px 15px;
+    cursor:pointer;
+}
+
+#error-message{
+    color:red;
+}
+
+.tooltip{
+    position:absolute;
+    background:black;
+    color:white;
+    padding:5px;
+    font-size:12px;
+    border-radius:5px;
+    display:none;
+}
+
+.feedback-item{
+    background:#e8f3ff;
+    padding:10px;
+    margin-top:10px;
+    border-radius:6px;
+}
