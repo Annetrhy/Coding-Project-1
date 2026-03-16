@@ -4,7 +4,7 @@ body{
 }
 
 #form-container{
-    background:#e4c3e2;
+    background:#a6ceb3;
     padding:20px;
     width:400px;
     border-radius:8px;
@@ -29,7 +29,7 @@ button{
 .tooltip{
     position:absolute;
     background:#a6ceb3;
-    color:#361f0e;
+    color:#4a2e1b;
     padding:5px;
     font-size:12px;
     border-radius:5px;
@@ -37,8 +37,8 @@ button{
 }
 
 .feedback-item{
-    background:#361f0e;
-    padding:10px;
+    background:#8a705f;
+    padding: 14px;px;
     margin-top:10px;
     border-radius:6px;
 }
